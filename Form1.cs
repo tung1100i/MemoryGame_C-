@@ -148,7 +148,7 @@ namespace BaiTapLon
         }
         //__________________________________________________________________________________
         //nhóm phím chọn độ khó, sau khi chọn tự động bắt đầu game, độ khó mặc định là dễ
-        private void dễToolStripMenuItem_Click(object sender, EventArgs e){time = 5;Start_Click(null,null);y = 10;}        
+        private void dễToolStripMenuItem_Click(object sender, EventArgs e){time = 300;Start_Click(null,null);y = 10;}        
         private void vừaToolStripMenuItem_Click(object sender, EventArgs e){time = 200; Start_Click(null, null);y = 20;}
         private void khóToolStripMenuItem_Click(object sender, EventArgs e){time = 100; Start_Click(null, null);y = 40;}
         //show messbox báo đã thua do hết giờ, đồng thời xóa màn hình trò chơi
